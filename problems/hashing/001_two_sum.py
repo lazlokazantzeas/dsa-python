@@ -26,3 +26,6 @@ def two_sum(nums: List[int], target: int) -> List[int]:
 
     return []
 
+if __name__ == "__main__":
+    #basic sanity checks
+    print(two_sum([2,7,11,13], 15))
